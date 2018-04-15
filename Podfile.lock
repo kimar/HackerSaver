@@ -1,0 +1,20 @@
+PODS:
+  - libHN (4.2.0)
+  - OnelinerKit (1.0.2)
+
+DEPENDENCIES:
+  - libHN
+  - OnelinerKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - libHN
+    - OnelinerKit
+
+SPEC CHECKSUMS:
+  libHN: f0833967c6d6234deeb08962222d9e5b671fc4fb
+  OnelinerKit: 8eb83a222e0903a3ac929af8250ded532e5404f1
+
+PODFILE CHECKSUM: 52b49d7ad4b022c5f9ce5a9e05a0830451c0634f
+
+COCOAPODS: 1.5.0

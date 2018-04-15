@@ -1,0 +1,6 @@
+framework module OnelinerKit {
+  umbrella header "OnelinerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

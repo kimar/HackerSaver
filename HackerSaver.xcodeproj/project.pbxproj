@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		074F3C462083D09D00133E35 /* HackerSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 074F3C452083D09D00133E35 /* HackerSaverView.h */; };
-		074F3C482083D09D00133E35 /* HackerSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 074F3C472083D09D00133E35 /* HackerSaverView.m */; };
+		074F3C502083D12700133E35 /* HackerSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074F3C4F2083D12700133E35 /* HackerSaverView.swift */; };
+		E7C2D67C36DFB5D09EE840F7 /* Pods_HackerSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000AA4FD86325A8371CF22F8 /* Pods_HackerSaver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000AA4FD86325A8371CF22F8 /* Pods_HackerSaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerSaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		074F3C422083D09D00133E35 /* HackerSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		074F3C452083D09D00133E35 /* HackerSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerSaverView.h; sourceTree = "<group>"; };
-		074F3C472083D09D00133E35 /* HackerSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerSaverView.m; sourceTree = "<group>"; };
 		074F3C492083D09D00133E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074F3C4F2083D12700133E35 /* HackerSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerSaverView.swift; sourceTree = "<group>"; };
+		1B5CB735F65CE8DC02FDC725 /* Pods-HackerSaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerSaver.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackerSaver/Pods-HackerSaver.release.xcconfig"; sourceTree = "<group>"; };
+		3C12F53930A4A480359663A5 /* Pods-HackerSaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerSaver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackerSaver/Pods-HackerSaver.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C2D67C36DFB5D09EE840F7 /* Pods_HackerSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +37,8 @@
 			children = (
 				074F3C442083D09D00133E35 /* HackerSaver */,
 				074F3C432083D09D00133E35 /* Products */,
+				8631BBBC6488AA50F24D8AA0 /* Pods */,
+				48289323A8F5D18A0A126F21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,11 +53,27 @@
 		074F3C442083D09D00133E35 /* HackerSaver */ = {
 			isa = PBXGroup;
 			children = (
-				074F3C452083D09D00133E35 /* HackerSaverView.h */,
-				074F3C472083D09D00133E35 /* HackerSaverView.m */,
 				074F3C492083D09D00133E35 /* Info.plist */,
+				074F3C4F2083D12700133E35 /* HackerSaverView.swift */,
 			);
 			path = HackerSaver;
+			sourceTree = "<group>";
+		};
+		48289323A8F5D18A0A126F21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000AA4FD86325A8371CF22F8 /* Pods_HackerSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8631BBBC6488AA50F24D8AA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C12F53930A4A480359663A5 /* Pods-HackerSaver.debug.xcconfig */,
+				1B5CB735F65CE8DC02FDC725 /* Pods-HackerSaver.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,7 +83,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074F3C462083D09D00133E35 /* HackerSaverView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +93,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 074F3C4C2083D09D00133E35 /* Build configuration list for PBXNativeTarget "HackerSaver" */;
 			buildPhases = (
+				90F6BDA5C68A6F77A1246820 /* [CP] Check Pods Manifest.lock */,
 				074F3C3D2083D09D00133E35 /* Sources */,
 				074F3C3E2083D09D00133E35 /* Frameworks */,
 				074F3C3F2083D09D00133E35 /* Headers */,
@@ -98,6 +119,7 @@
 				TargetAttributes = {
 					074F3C412083D09D00133E35 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -128,12 +150,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90F6BDA5C68A6F77A1246820 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerSaver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		074F3C3D2083D09D00133E35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074F3C482083D09D00133E35 /* HackerSaverView.m in Sources */,
+				074F3C502083D12700133E35 /* HackerSaverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,28 +294,37 @@
 		};
 		074F3C4D2083D09D00133E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C12F53930A4A480359663A5 /* Pods-HackerSaver.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 857XYUU5FE;
 				INFOPLIST_FILE = HackerSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.kida.HackerSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
 		};
 		074F3C4E2083D09D00133E35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5CB735F65CE8DC02FDC725 /* Pods-HackerSaver.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 857XYUU5FE;
 				INFOPLIST_FILE = HackerSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.kida.HackerSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
